@@ -16,5 +16,5 @@ Strong JavaScript and Node.js skills.
 Experienced in TDD, integrating external APIs, optimizing
 applications and agile methodologies
 
-[CV]({% link pages/cv.markdown %})
+[CV]({% link pages/cv/index.markdown %})
 
