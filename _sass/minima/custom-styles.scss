@@ -1,18 +1,22 @@
-/*
-.karl {
-  background-color: crimson;
-}
-*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
+/*
 $darkest-blue: #1a237e;
 $darker-blue: #283593;
+*/
+// $darkest-blue: $brand-color-dark;
+$darkest-blue: $brand-color;
+$darker-blue: $brand-color-dark;
+// $darker-blue: $brand-color-light;
 // $medium-blue: #3949ab;
 // $light-blue: #3f51b5;
 // $lighter-blue: #5c6bc0;
 // $lightest-blue: #9fa8da;
+
+// $white: #ffffff;
 $white: #ffffff;
-$black: #0e1442;
+// $black: #0e1442;
+$black: $brand-color-dark;
 $orange: #ffb300;
 $yellow: #fdd835;
 
@@ -32,10 +36,10 @@ $yellow: #fdd835;
 
 .resume {
   width: 960px;
-  background: $darkest-blue;
-  color: $white;
+  background: $darkest-blue; // TARGET
+  color: $white; // TARGET
   margin: 20px auto;
-  box-shadow: 10px 10px $black;
+  box-shadow: 10px 10px $black; // TARGET
   position: relative;
   display: flex;
 }
@@ -70,11 +74,11 @@ $yellow: #fdd835;
   margin-top: 0;
 }
 .resume .func h3 i {
-  color: $darker-blue;
-  background: $orange;
+  color: $darker-blue; // TARGET
+  background: $orange; // TARGET
   width: 42px;
   height: 42px;
-  font-size: 20px;
+  // font-size: 20px;
   line-height: 42px;
   border-radius: 50%;
   text-align: center;
@@ -104,11 +108,11 @@ $yellow: #fdd835;
 }
 .resume .func .work ul li:hover span,
 .resume .func .edu ul li:hover span {
-  color: $yellow;
+  color: $yellow; // TARGET
 }
 @keyframes circle {
   from {
-    box-shadow: 0 0 0 0px $yellow;
+    box-shadow: 0 0 0 0px $yellow; // TARGET
   }
   to {
     box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
@@ -140,8 +144,8 @@ $yellow: #fdd835;
 .resume .func .edu ul li::before {
   width: 7px;
   height: 7px;
-  border: 3px solid $white;
-  background: $orange;
+  border: 3px solid $white; // TARGET
+  background: $orange; // TARGET
   border-radius: 50%;
   left: 3px;
   z-index: 1;
@@ -150,7 +154,7 @@ $yellow: #fdd835;
 .resume .func .edu ul li::after {
   width: 3px;
   height: 100%;
-  background: $white;
+  background: $white; // TARGET
   left: 5px;
   top: 0;
 }
@@ -160,12 +164,12 @@ $yellow: #fdd835;
 }
 .resume .func .work {
   width: 48%;
-  background: $darker-blue;
+  background: $darker-blue; // TARGET
   padding: 15px;
   margin: 0 4% 15px 0;
 }
 .resume .func .edu {
   width: 48%;
-  background: $darker-blue;
+  background: $darker-blue; // TARGET
   padding: 15px;
 }
