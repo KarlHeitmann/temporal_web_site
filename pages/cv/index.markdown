@@ -7,6 +7,8 @@ layout: home
 permalink: /cv/
 ---
 
+{% include custom-head.html %}
+
 <!--
 
 # Summary
@@ -48,3 +50,6 @@ applications and agile methodologies.
 {% include_relative experience.markdown %}
 
 {% include_relative projects.markdown %}
+
+# IMPORTANT: use rubocop and explain rubocop
+
